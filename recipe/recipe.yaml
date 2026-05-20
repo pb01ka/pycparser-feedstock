@@ -28,7 +28,6 @@ tests:
   - python:
       imports:
         - pycparser
-        - pycparser.ply
       pip_check: true
       python_version: ${{ python_min }}
 
